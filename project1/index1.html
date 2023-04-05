@@ -19,20 +19,35 @@
             
             
         }
-        section {
+        /*.section {
             padding: 30px;
         }
-        ul {
+        nav {
             
             font-family: 'Courier New', Courier, monospace;
             
         }
+        article {
+            float:right;
+            padding: 20px;
+
+        }
+        @media (max width: 600px){
+            nav,article{
+            {
+                flex-direction: column;
+        
+            }
+        }
+    }*/
+
+
     </style>
 </head>
 <body>
     <div class="header">
         
-        <div style="font-size:large">&#9819  AppVilla</div>  
+        <div style="font-size:large"> &#9819  AppVilla</div>  
         <div><a href ="#home">Home</a></div>
         <div><a href ="#features">Features</a></div>
         <div><a href ="#overview">Overview</a></div>
@@ -40,22 +55,39 @@
         <div><a href ="#team">Team</a></div>
         <div><a href ="#blog">Blog</a></div>
         <div><a href ="#contact">Contact</a></div>
-        <div><button type="button" onclick= a href ="#"></a>Get It Now</button></div>
+        <div><button type="button" onclick= "a href ='#'"></a>Get It Now</button></div>
         
 
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="section">
+    <!--<div class="section">
         <nav>
             
             <p style font-size="large">A POWERFUL APP FOR YOUR BUSINESS.</p>
             <br><br><br><br>
 
-            <p style font-size="small">From open source to pro services, Piqes helps you to build, deploy, test, and monitor apps</p>
+            <p style font-size="small">From open source to pro services, <br>Piqes helps you to build,<br> deploy, test, and monitor apps</p>
             
         </nav>
-    </div>
-        
-        
+    
+        <article>
+            <img src="C:\Users\Sowmiya\Desktop\app1.jpg" width="300" height="400">   
+        </article>
+    
+    </div> -->   
+    <table style="width: 100%">
+        <tr>
+            <td style="font-size:larger">A POWERFUL APP FOR YOUR BUSINESS.</td>
+            <td rowspan="3"><img src="C:\Users\Sowmiya\Desktop\app1.jpg" width="300" height="400"></td>
+            <td rowspan="3"><img src="C:\Users\Sowmiya\Desktop\app2.jpg" width="300" height="400"></td>
+            
+        </tr>
+        <tr>
+            <td>From open source to pro services, <br>Piqes helps you to build,<br> deploy, test, and monitor apps</td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick= "a href ='#'"></a>AppStore</button><button type="button" onclick= "a href ='#'"></a>Google Play</button></td>
+        </tr>
+ 
 </body>
 </html>
