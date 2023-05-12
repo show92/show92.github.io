@@ -27,8 +27,9 @@ switch(op){
         result = x % y;
     
 }
+document.getElementById("Result").value = result;
 
-document.getElementById("result").innerHTML= result;
+
 
 alert(result);
 console.log(result);
